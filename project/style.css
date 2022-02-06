@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.contaner {
+  height: 100%;
+  /* width: 100px; */
+  margin: 0 auto;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cont {
+  background-color: #c3fae8;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  margin-top: 10rem;
+  grid-column: 2/3;
+  justify-self: center;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.cont:hover {
+  transform: scale(1.1);
+}
+
+.music-img {
+  margin-bottom: 3.2rem;
+}
+
+.music-title {
+  font-size: 2rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  display: block;
+  color: #087f5b;
+  margin-bottom: 0.5rem;
+}
+
+.music-artist {
+  font-size: 1rem;
+  color: #0ca678;
+  letter-spacing: 0.2rem;
+  font-family: "Bebas Neue", cursive;
+  display: block;
+  text-align: center;
+  margin-bottom: 3rem;
+}
